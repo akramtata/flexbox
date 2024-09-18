@@ -1,0 +1,135 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+    gap: 30px;
+}
+
+#title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    text-shadow: 4px 4px 14px orange;
+}
+
+.typescript{
+    background-color: dodgerblue;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 22px gray;
+}
+.image img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;  
+}
+
+.typescript:hover{
+    scale: 1.03;
+    background-color: white;
+    border: 4px solid dodgerblue;
+    border-radius: 20px;
+    color: dodgerblue;
+}
+
+/* Mongodb */
+.mongodb{
+    background-color: seagreen;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;  
+}
+
+.mongodb:hover{
+    scale: 1.03;
+    background-color: white;
+    border: 4px solid seagreen;
+    border-radius: 20px;
+    color: seagreen;
+}
+/* Express */
+.express{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;  
+}
+
+.express:hover{
+    scale: 1.03;
+    background-color: white;
+    border: 4px solid rgb(61, 61, 61);
+    border-radius: 20px;
+    color: rgb(61, 61, 61);
+}
+/* Reactjs */
+.react{
+    background-color: dodgerblue;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;  
+}
+
+.react:hover{
+    scale: 1.03;
+    background-color: white;
+    border: 4px solid dodgerblue;
+    border-radius: 20px;
+    color: dodgerblue;
+}
+/* NodeJs */
+.Node{
+    background-color: seagreen;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;  
+}
+
+.Node:hover{
+    scale: 1.03;
+    background-color: white;
+    border: 4px solid seagreen;
+    border-radius: 20px;
+    color: seagreen;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    background: linear-gradient(90deg, dodgerblue, seagreen, rgb(61, 61, 61), dodgerblue, seagreen);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease; 
+}
+ body{
+    background-color: rgb(209, 202, 193);
+ }
